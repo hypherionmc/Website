@@ -1,0 +1,276 @@
+.main img.fg {
+  -webkit-animation: fadein 4s linear; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: fadein 4s linear; /* Firefox < 16 */
+      -ms-animation: fadein 4s linear; /* Internet Explorer */
+       -o-animation: fadein 4s linear; /* Opera < 12.1 */
+          animation: fadein 4s linear;
+
+  margin-top: -24%;
+}
+
+.main img {
+  width: 100%;
+  display: block;
+}
+
+@keyframes fadein {
+  0%    { opacity: 0; }
+  50%   { opacity: 0; }
+  90%   { opacity: 1; }
+  91%   { opacity: 0; }
+  95%   { opacity: 1; }
+  99%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+  0%    { opacity: 0; }
+  50%   { opacity: 0; }
+  90%   { opacity: 1; }
+  91%   { opacity: 0; }
+  95%   { opacity: 1; }
+  99%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+  0%    { opacity: 0; }
+  50%   { opacity: 0; }
+  90%   { opacity: 1; }
+  91%   { opacity: 0; }
+  95%   { opacity: 1; }
+  99%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+  0%    { opacity: 0; }
+  50%   { opacity: 0; }
+  90%   { opacity: 1; }
+  91%   { opacity: 0; }
+  95%   { opacity: 1; }
+  99%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+  0%    { opacity: 0; }
+  50%   { opacity: 0; }
+  90%   { opacity: 1; }
+  91%   { opacity: 0; }
+  95%   { opacity: 1; }
+  99%   { opacity: 0; }
+  100%  { opacity: 1; }
+}
+
+.main h1, footer {
+  -webkit-animation: blinkin 6s linear; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: blinkin 6s linear; /* Firefox < 16 */
+      -ms-animation: blinkin 6s linear; /* Internet Explorer */
+       -o-animation: blinkin 6s linear; /* Opera < 12.1 */
+          animation: blinkin 6s linear;
+}
+
+.main p, .main #buttons {
+  -webkit-animation: blinkin 8s linear; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: blinkin 8s linear; /* Firefox < 16 */
+      -ms-animation: blinkin 8s linear; /* Internet Explorer */
+       -o-animation: blinkin 8s linear; /* Opera < 12.1 */
+          animation: blinkin 8s linear;
+}
+
+.main #buttons {
+	-webkit-animation: blinkin 10s linear; /* Safari, Chrome and Opera > 12.1 */
+		 -moz-animation: blinkin 10s linear; /* Firefox < 16 */
+			-ms-animation: blinkin 10s linear; /* Internet Explorer */
+			 -o-animation: blinkin 10s linear; /* Opera < 12.1 */
+					animation: blinkin 10s linear;
+}
+
+@keyframes blinkin {
+  0%   { opacity: 0; }
+  90%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes blinkin {
+  0%   { opacity: 0; }
+  90%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes blinkin {
+  0%   { opacity: 0; }
+  90%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes blinkin {
+  0%   { opacity: 0; }
+  90%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes blinkin {
+  0%   { opacity: 0; }
+  90%  { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.main .imgcontainer {
+  -webkit-animation: slideright 6s ease-in-out; /* Safari, Chrome and Opera > 12.1 */
+     -moz-animation: slideright 6s ease-in-out; /* Firefox < 16 */
+      -ms-animation: slideright 6s ease-in-out; /* Internet Explorer */
+       -o-animation: slideright 6s ease-in-out; /* Opera < 12.1 */
+          animation: slideright 6s ease-in-out;
+}
+
+@keyframes slideright {
+  0%   { margin-left: -50%; }
+  34%  { margin-left: -50%; }
+  55% { margin-left: 0; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes slideright {
+  0%   { margin-left: -50%; }
+  34%  { margin-left: -50%; }
+  55% { margin-left: 0; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes slideright {
+  0%   { margin-left: -50%; }
+  34%  { margin-left: -50%; }
+  55% { margin-left: 0; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes slideright {
+  0%   { margin-left: -50%; }
+  34%  { margin-left: -50%; }
+  55% { margin-left: 0; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes slideright {
+  0%   { margin-left: -50%; }
+  34%  { margin-left: -50%; }
+  55% { margin-left: 0; }
+}
+
+@media screen and (max-device-width: 800px) {
+	html {
+		background: url(../images/particles.png) #000 no-repeat center center fixed;
+	}
+
+	#bg-video {
+		display: none;
+	}
+}
+
+body, a {
+	font-family: 'CodeNewRomanRegular', Consolas, serif;
+	color: #50986f !important;
+	text-shadow: 0 0 20px #30784f !important;
+}
+
+.main {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: 522px;
+    height: 280px;
+    text-align: center;
+}
+
+.tallmain {
+	height: 320px;
+}
+
+.main h1 {
+  margin: 0;
+  font-size: 4em;
+  font-weight: normal;
+  margin-top: -30px;
+  margin-bottom: 4px;
+  font-family: 'MinecraftiaRegular';
+}
+
+@media screen and (max-width: 450px) {
+  .main h1 {
+    margin-top: -15px;
+  }
+}
+
+.main p {
+  margin: 0;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.main .changelog {
+  margin-top: 30px;
+}
+
+.main .changelog li {
+  display: none;
+	padding: 0 10px;
+}
+
+.main #buttons li {
+	display: inline;
+}
+
+.main #buttons button {
+	background-color: transparent;
+	padding: 10px;
+	margin: 15px 10px 0;
+	border: 2px solid #30784f;
+	box-shadow: 0 0 20px #30784f !important;
+	transition: 0.1s linear;
+}
+
+.main #buttons button:hover {
+	box-shadow: 0 0 40px #30784f !important;
+}
+
+html {
+  background-color: #111;
+}
+
+#bg-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+		z-index: -999;
+}
+
+footer {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	padding: 5px;
+}
+
+footer a:before {
+	content: " |\a0";
+	display: inline-block;
+}

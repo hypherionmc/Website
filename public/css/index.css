@@ -1,0 +1,211 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700|Open+Sans:400,700);
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	background: url(../images/background.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#header {
+	margin-top: 20px;
+}
+
+#header .logo {
+	margin: 0 auto;
+}
+
+#header #wiki {
+	display: block;
+	margin: 0 auto;
+
+}
+
+#navigation {
+	
+}
+
+#navigation ul {
+	background-color: #23a298;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+#navigation ul li {
+	list-style: none;
+	display: inline-block;
+}
+
+#navigation ul li a {
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #fff;
+	padding: 14px 26px;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+	transition: all 0.2s;
+}
+
+#navigation ul li a:hover {
+	box-shadow: inset 0 -4px 0 #adff1f;
+	color: #adff1f;
+}
+
+#mods {
+	margin-top: 20px;
+}
+
+#mods .mod {
+	background-color: #fff;
+	background-size: cover;
+	height: 250px;
+	position: relative;
+	display: block;
+	opacity: 0.95;
+	transition: all 0.2s;
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+#mods .mod:hover {
+	opacity: 1;
+	transform: scale(1.025);
+}
+
+#mods .mod .info {
+	color: #fff;
+	background: rgba(0, 0, 0, 0.3);
+	display: block;
+	position: absolute;
+	bottom: 16px;
+	left: 50%;
+	margin-left: -150px;
+	padding: 16px;
+	max-width: 300px;
+	text-align: center;
+}
+
+#mods .mod .info .title {
+	font-family: Ubuntu, sans-serif;
+	font-size: 24px;
+	font-size: 700;
+	margin-top: 0;
+	margin-bottom: 6px;
+}
+
+#mods .mod .info .description {
+	margin: 0;
+}
+
+#mods .mod.enderio {
+	background-image: url(../images/enderio.png);
+}
+
+#mods .mod.ender-zoo {
+	background-image: url(../images/ender-zoo-mod.png);
+}
+
+#mods .mod-links {
+	font-size: 0;
+}
+
+#mods .mod-links a {
+	margin-top: 10px;
+}
+#mods .mod-links a:nth-child(even) {
+	margin-left: 10px;
+}
+
+#news {
+	margin-top: 20px;
+}
+
+#news .news-item {
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+	margin-bottom: 20px;
+}
+
+#news .news-item .header {
+	height: 104px;
+	background-color: #107684;
+	box-shadow: inset 0 -4px 0 #adff1f;
+}
+
+#news .news-item .header .avatar {
+	float: left;
+	width: 100px;
+	height: 100px;
+}
+
+#news .news-item .header .meta {
+	float: left;
+	height: 100%;
+	position: relative;
+	color: #fff;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+	margin-left: 20px;
+}
+
+#news .news-item .header .meta .title {
+	font-family: Ubuntu, sans-serif;
+	color: #e4f8f6;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#news .news-item .header .meta .info {
+	color: #aaeee9;
+	margin: 0;
+}
+
+#news .news-item .content {
+	background-color: #fff;
+	padding: 12px 20px;
+}
+
+#footer {
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+#footer #footer-content {
+	background-color: #107684;
+	color: #fff;
+	font-weight: 700;
+	padding: 12px 16px;
+	text-align: right;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: inset 0 -4px 0 #adff1f, 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+	background: url(../images/logo.png) no-repeat;
+	width: 508px;
+	height: 141px;
+	display: block;
+	text-indent: -9999px;
+}
+
+.ender-button {
+	background-color: #107684;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+	width: 272.5px;
+	font-size: 15px;
+	transition: all 0.2s;
+	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);
+	box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ender-button:hover {
+	background-color: #1b9aab;
+	color: #fff;
+	text-decoration: none;
+}
