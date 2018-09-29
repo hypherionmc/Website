@@ -19,7 +19,7 @@ body {
 #header #wiki {
 	display: block;
 	margin: 0 auto;
-
+	max-width: 300px;
 }
 
 #navigation {
@@ -106,17 +106,19 @@ body {
 
 #mods .mod.ender-zoo {
 	background-image: url(../images/ender-zoo-mod.png);
+	background-position: center;
 }
 
 #mods .mod-links {
 	font-size: 0;
+	margin-top: 5px;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-bottom: 20px;
 }
 
-#mods .mod-links a {
-	margin-top: 10px;
-}
-#mods .mod-links a:nth-child(even) {
-	margin-left: 10px;
+#mods .mod-links > div {
+	padding: 5px;
 }
 
 #news {
@@ -168,7 +170,6 @@ body {
 
 #footer {
 	margin-bottom: 20px;
-	margin-top: 20px;
 }
 
 #footer #footer-content {
@@ -183,7 +184,8 @@ body {
 
 .logo {
 	background: url(../images/logo-tagline.png) no-repeat;
-	width: 508px;
+	background-size: contain;
+	max-width: 508px;
 	height: 141px;
 	display: block;
 	text-indent: -9999px;
@@ -195,9 +197,8 @@ body {
 	text-decoration: none;
 	font-weight: 700;
 	text-align: center;
-	display: inline-block;
-	padding: 10px;
-	width: 272.5px;
+	display: block;
+	padding: 10px 0;
 	font-size: 15px;
 	transition: all 0.2s;
 	text-shadow: 0 2px 0 rgba(0, 0, 0, 0.25);

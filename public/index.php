@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap-grid.min.css">
   <link rel="stylesheet" href="css/font-awesome.css">
   <link rel="stylesheet" href="css/index.css">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
   <title> EnderIO </title>
 <!--
     @if (Request::segment(2))
@@ -33,11 +36,11 @@
               <p class="description">Compact conduits, machines, powerful tools and armour and more</p>
             </div>
           </a>
-          <div class="mod-links">
-            <a href="https://minecraft.curseforge.com/projects/ender-io" target="_blank" class="ender-button">CurseForge</a>
-            <a href="https://minecraft.curseforge.com/projects/ender-io/files" target="_blank" class="ender-button">Downloads</a>
-            <a href="https://github.com/CrazyPants/EnderIO" target="_blank" class="ender-button">Source Code</a>
-            <a href="http://loenwind.info/eio_issue.html" target="_blank" class="ender-button">Bug Reports & Suggestions</a>
+          <div class="mod-links row no-gutters">
+            <div class="col-lg-6 col-12"><a href="https://minecraft.curseforge.com/projects/ender-io" target="_blank" class="ender-button">CurseForge</a></div>
+            <div class="col-lg-6 col-12"><a href="https://minecraft.curseforge.com/projects/ender-io/files" target="_blank" class="ender-button">Downloads</a></div>
+            <div class="col-lg-6 col-12"><a href="https://github.com/CrazyPants/EnderIO" target="_blank" class="ender-button">Source Code</a></div>
+            <div class="col-lg-6 col-12"><a href="http://loenwind.info/eio_issue.html" target="_blank" class="ender-button">Bug Reports & Suggestions</a></div>
           </div>
         </div>
         <div class="col-md-6">
@@ -47,11 +50,11 @@
               <p class="description">New hostile mobs from enderminies to dire wolves and fallen steeds</p>
             </div>
           </a>
-          <div class="mod-links">
-            <a href="https://minecraft.curseforge.com/projects/ender-zoo" target="_blank" class="ender-button">CurseForge</a>
-            <a href="https://minecraft.curseforge.com/projects/ender-zoo/files" target="_blank" class="ender-button">Downloads</a>
-            <a href="https://github.com/CrazyPants/EnderZoo" target="_blank" class="ender-button">Source Code</a>
-            <a href="http://loenwind.info/eio_issue.html" target="_blank" class="ender-button">Bug Reports & Suggestions</a>
+          <div class="mod-links row no-gutters">
+            <div class="col-lg-6 col-12"><a href="https://minecraft.curseforge.com/projects/ender-zoo" target="_blank" class="ender-button">CurseForge</a></div>
+            <div class="col-lg-6 col-12"><a href="https://minecraft.curseforge.com/projects/ender-zoo/files" target="_blank" class="ender-button">Downloads</a></div>
+            <div class="col-lg-6 col-12"><a href="https://github.com/CrazyPants/EnderZoo" target="_blank" class="ender-button">Source Code</a></div>
+            <div class="col-lg-6 col-12"><a href="http://loenwind.info/eio_issue.html" target="_blank" class="ender-button">Bug Reports & Suggestions</a></div>
           </div>
         </div>
       </div>
