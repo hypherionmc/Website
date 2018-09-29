@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Ubuntu:400,700|Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700|Open+Sans:400,700);
 
 body {
 	font-family: 'Open Sans', sans-serif;
@@ -23,7 +23,7 @@ body {
 }
 
 #navigation {
-	
+
 }
 
 #navigation ul {
@@ -182,7 +182,7 @@ body {
 }
 
 .logo {
-	background: url(../images/logo.png) no-repeat;
+	background: url(../images/logo-tagline.png) no-repeat;
 	width: 508px;
 	height: 141px;
 	display: block;
