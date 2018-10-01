@@ -18,7 +18,7 @@
 		{% for name, module in modules %}
 			<div class="module">
 				<h2>EnderIO {{ name }}<span class="expand-arrow fa fa-plus"></span></h2>
-				<div class="desc">
+				<div class="desc" style="display:none;">
 					<img src="images/modules/{{ module }}.png"/>
 					{% include 'modules/' ~ module ~ '.twig' %}
 				</div>
@@ -26,9 +26,13 @@
 		{% endfor %}
 	</div>
 </div>
+<noscript> <!-- Force expandos to be open when JS is disabled -->
+	<style>
+		.module .desc { display: block !important; }
+	</style>
+</noscript>
 <script>
 	$( function() {
-		$( ".module .desc").hide();
 		$( ".module h2" ).click(function() {
 			$(this).next().slideToggle();
 			$(this).toggleClass('open');
