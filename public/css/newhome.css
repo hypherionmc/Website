@@ -37,6 +37,7 @@ body {
 .module img {
 	margin: 0 auto;
 	display: block;
+	widtH: 100%;
 }
 
 .module .desc {
