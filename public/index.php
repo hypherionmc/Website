@@ -57,6 +57,15 @@ $app->get("/5", function ($req, $resp, $args) use ($app) {
 		return $app->subRequest('GET', '/4');
 });
 
+$app->get("/newhome", function ($req, $resp, $args) {
+		$modules = [
+			'Base' => 'base',
+			'Machines' => 'machines'
+		];
+
+		return $this->view->render($resp, 'newhome.twig', ['page_title' => 'Home', 'page_desc' => 'Home Page', 'modules' => $modules]);
+});
+
 // Run app
 $app->run();
 

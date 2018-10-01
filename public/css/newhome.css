@@ -1,0 +1,45 @@
+body {
+	/* background-image: none; */
+}
+
+#modules {
+	margin-top: 50px;
+}
+
+#modules .module {
+	padding: 5px;
+	width: 100%;
+}
+
+.module h2 {
+	background-color: #107684;
+	padding: 5px;
+	color: white;
+	margin: 0;
+	box-shadow: 0px 3px 6px -2px black;
+	position: relative;
+}
+
+.module h2:hover {
+	cursor: pointer;
+	background-color: #1b9aab;
+}
+
+.module h2 .expand-arrow {
+	float: right;
+	padding: 5px;
+}
+
+.module h2.open .expand-arrow::before {
+	content: "\f068";
+}
+
+.module img {
+	margin: 0 auto;
+	display: block;
+}
+
+.module .desc {
+	background-color: rgba(240, 240, 240, 0.75);
+	padding: 20px;
+}
