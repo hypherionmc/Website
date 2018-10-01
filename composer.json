@@ -1,0 +1,11 @@
+{
+    "config": {
+        "vendor-dir": "public/vendor"
+    },
+
+    "require": {
+        "slim/slim": "^3.0",
+        "twig/twig": "^2.0",
+        "slim/twig-view": "^2.2"
+    }
+}

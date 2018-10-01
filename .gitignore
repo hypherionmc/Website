@@ -1,0 +1,5 @@
+# Composer install location
+/public/vendor
+
+# Twig stuff
+*/compilation_cache
