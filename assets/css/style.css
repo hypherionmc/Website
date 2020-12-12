@@ -1,0 +1,77 @@
+body {
+}
+
+.bgcontainer {
+  background: #343a40;
+}
+
+.hp-jumbo {
+  background-image: url(../img/bg.jpg);
+  background-size: cover;
+}
+
+.hpfont {
+    font-family: 'Russo One', sans-serif;
+}
+
+.server-req {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.avatar {
+  border-radius: 10px;
+}
+
+.server-info-box {
+  min-height: 100px;
+  background: gray;
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.staff {
+  min-height: 150px;
+  background: url(../img/staff-bg.jpg);
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.leader {
+  font-size: 12px;
+  color: gray;
+  font-weight: bold;
+}
+
+.footer {
+  background: #383838 !important;
+  min-height: 250px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footerlink {
+  transition: all 0.5s;
+  text-decoration: none !important;
+  color: white;
+  font-weight: bold;
+  font-family: 'Russo One', sans-serif;
+}
+
+.footerlink:hover {
+  color: green;
+}
+
+.footeraddon {
+  background: #333 !important;
+  padding-top: 15px;
+  color: #777 !important;
+}
+
+.footeraddon p {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 14px;
+}
